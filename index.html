@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ahmed Radwan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="content">
+    <video class="video-loop" autoplay loop muted>
+        <source src="video-loop.mp4" type="video/mp4">
+    </video>
+
+        <header class="header">
+            <label for="menu" class="burger-menu">
+                <div class="burger-menu__bar"></div>
+                <div class="burger-menu__bar"></div>
+                <div class="burger-menu__bar"></div>
+            </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li><a href="#bio" class="navigation__link navigation__bio">Bio</a></li>
+                    <li><a href="#skills" class="navigation__link navigation__skills">Skills</a></li>
+                    <li><a href="#media" class="navigation__link navigation__media">Media</a></li>
+                    <li><a href="#projects" class="navigation__link navigation__projects">Projects</a></li>
+                    <li><a href="#clients" class="navigation__link navigation__clients">My clients</a></li>
+                    <li><a href="#contact" class="navigation__link navigation__contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="toggle">
+                <h3 class="toggle__title">Switch theme</h3>
+                <input type="checkbox" name="Toggle checkbox" id="toggle" class="toggle__checkbox">
+                <label for="toggle" class="toggle__label"></label>
+            </div>
+        </header>
+        <section id="bio" class="section bio">
+            <div class="bio__data">
+        <h1 class="bio__heading"> Hi there I am a passionate software engineer</h1>
+        <p class="bio__objective">My name is <span class="bio__almdrasa">Ahmed Radwan</span>, the founder of <a href="https://aradwan.com/" class="bio__link" target="_blank">aradwan.com</a>
+        Software engineer and a content creaor who publish on <a class="bio__facebook" href="https://www.facebook.com/Ahmed1radwan10/" target="_blank">Facebook</a>, <a href="https://x.com/contact_radwan" class="bio__x" target="_blank">X</a>, and <a href="https://www.linkedin.com/in/ahmed-ibrahim-3585111a7/" class="bio__linkedin" target="_blank">Linkedin</a></p>
+        <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+        <a href="Ahmed Radwan-CV.pdf" target="_blank" class="bio__links find-out-link">Download CV<span class="bio__arrow">↓</span></a>
+            </div>
+        <div class="bio__pic-content"><img src="Radwan1.png" class="bio__pic" alt="This is an image of me Ahmed Radwan"></div>
+    </section>
+     <section id="skills" class="skills section section--with-bg">
+            <h2 class="h2-heading">Skills</h2>
+            <ul class="skills__list">
+                <li class="skills__item">
+                    <h2 class="skills__title">HTML</h2>
+                    <span class="skills__years">8 years</span>
+                </li>
+                <li class="skills__item">
+                    <h2 class="skills__title">CSS</h2>
+                    <span class="skills__years">8 years</span>
+                </li>
+                <li class="skills__item">
+                    <h2 class="skills__title">JavaScript</h2>
+                    <span class="skills__years">8 years</span>
+                </li>
+                <li class="skills__item">
+                    <h2 class="skills__title">React</h2>
+                    <span class="skills__years">4 years</span>
+                </li>
+                <li class="skills__item">
+                    <h2 class="skills__title">Redux</h2>
+                    <span class="skills__years">3 years</span>
+                </li>
+                <li class="skills__item">
+                    <h2 class="skills__title">React testing library</h2>
+                    <span class="skills__years">1 years</span>
+                </li>
+            </ul>
+        </section>
+
+        <section id="media" class="media section">
+            <video src="video.mp4" class="media__video" poster="thumbnail.jpg" controls></video>
+        </section>
+
+        <section id="projects" class="projects section">
+            <h2 class="h2-heading">My Featured <br> Projects</h2>
+            <div class="projects__main">
+                
+<img src="project-1.jpg" class="projects__img" alt="Quran tab extension">
+<div class="projects-data">
+  <h3 class="h3-heading">Quran Tab <br> extension</h3>
+  <p class="projects__description">Quran Tab is an Islamic new tab page that will keep you inspired by a verse from the Quran every time you open a new tab that helps you achieve your 'Khatma' and keeps you connected with the words of Allaا</p>
+  <a href="https://bit.ly/qt-chrome" class="projects__link" target="_blank">Chrome link</a>
+  <span>-</span>
+  <a href="https://bit.ly/qt-chrome" class="projects__link" target="_blank">Edge link</a>
+</div>
+
+
+<img src="project-2.jpg" class="projects__img" alt="Quran Station extension">
+<div class="projects-data">
+  <h3 class="h3-heading">Quran Station <br> extension</h3>
+  <p class="projects__description">Small extension that gives you access to over 100 stations to help you listen to the Quran from your favorite reciters easily Quran-Station has over 100 stations to help you listen to the Quran from your favorite reciters in a quick and easy way</p>
+  <a href="https://bit.ly/qt-chrome" class="projects__link" target="_blank">Chrome link</a>
+  <span>-</span>
+  <a href="https://bit.ly/qt-chrome" class="projects__link" target="_blank">Edge link</a>
+</div>
+
+</section>
+
+<section id="clients" class="clients section section--with-bg">
+<h2 class="h2-heading">What my cliens <br> Says</h2>
+<div class="clients__opinions">
+    <div class="clients__wrapper">
+        <p class="clients__opinion">Working with Ahmed was a game-changer for our website. His attention to detail, clean code, and responsive design transformed our user experience. Highly recommended for any front-end project!"
+— Sarah M., Marketing Manager</p>
+        <p class="clients__opinion">Ahmed delivered exactly what we needed — fast, modern, and fully responsive UI. Communication was smooth, and he met every deadline. We'll definitely be working with him again."
+— John K., Startup Founder</p>
+        <p class="clients__opinion">Ahmed combines technical expertise with a strong design sense. He turned our mockups into pixel-perfect code and suggested smart improvements we hadn’t thought of. Great asset to any team."
+— Laila H., Product Designer
+
+</p>
+    </div>
+</div>
+</section>
+<section id="contact" class="contact section">
+    <div>
+        <p class="contact__description">
+            feel free to reach out any time.
+            I prefeer to talk over mail, so send me a one
+        </p>
+        <a href="mailto:ahmed1radwan10@gmail.com" class="contact__email">Send me an email</a>
+
+        <div class="contact__socials"></div>
+        <a href="#" class="contact__social"><img src="facebook.svg" alt="Icon of Facebook"></a>
+        <a href="#" id="twitter" class="contact__social"><img src="twitter.svg" alt="Icon of Twitter"></a>
+        <a href="#" class="contact__social"><img src="youtube.svg" alt="Icon of YouTube"></a>
+        <a href="#" class="contact__social"><img src="github.svg" alt="Icon of Github"></a>
+        <a href="#" class="contact__social"><img src="instagram.svg" alt="Icon of Instagram"></a>
+        <a href="#" class="contact__social"><img src="LinkedIn.svg" alt="Icon of Linkedin"></a>
+    </div>
+    <div class="contac__formContent">
+        <h2 class="h2-heading">Let's work <br> together</h2>
+
+        <form action="results.html">
+            <div class="contact__inputs">
+            <input class="contact__input" type="text" placeholder="Full Name" name="Name" required>
+            <input class="contact__input" type="tel" placeholder="Phone No." required name="phone">
+            </div>
+            <textarea class="contact__input contact__textarea" name="description" id="description" placeholder="Your Message"></textarea>
+            <input class="contact__button" type="submit" value="send message">
+        </form>
+    </div>
+</section>
+    <footer class="footer">&copy; 2025 by Ahmed Radwan</footer>
+        </div>
+    </body>
+</html>
